@@ -1,0 +1,25 @@
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+.text-black {
+    color: black;
+}
+
+.navbar-nav {
+    position: absolute;
+    right: 4rem;
+}
+
+.nav-item:hover {
+    font-weight: bolder;   
+}
+
+#section-2 {
+    position: relative;
+}
+
+.benefit-heading {
+    margin-top: -3rem;
+}
