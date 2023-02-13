@@ -66,7 +66,7 @@
        <h2 class="mb-4 text-black font-weight-bold p-0 text-center benefit-heading">Kehebatan Ticketing</h2>
        <div class="card-deck px-5">
             <div class="card p-3">
-                <div class="cardheader text-center">
+                <div class="text-center">
                     <div class="text-danger">
                         <a href="#" class="btn btn-circle btn-danger mb-2">
                             <i class="fa fa-fw fa-dollar-sign"></i>
@@ -75,45 +75,67 @@
                     <span class="h3 text-center text-danger">Murah</span>
                 </div>
                 <div class="card-body">
-                    <p class="text-justify">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, reprehenderit.
+                    <p class="text-center">
+                        Pembelian tiket dimulai dari harga 30 ribu rupiah saja
                     </p>
                 </div>
             </div>
             <div class="card p-3">
-                <div class="cardheader text-center">
+                <div class="text-center">
                     <div class="text-danger">
                         <a href="#" class="btn btn-circle btn-danger mb-2">
-                            <i class="fa fa-fw fa-dollar-sign"></i>
+                            <i class="fa fa-fw fa-globe"></i>
                         </a>
                     </div>
-                    <span class="h3 text-center text-danger">Murah</span>
+                    <span class="h3 text-center text-danger">Mudah</span>
                 </div>
                 <div class="card-body">
-                    <p class="text-justify">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, reprehenderit.
+                    <p class="text-center">
+                        Anda tidak perlu repot repot mengantri dalam pembelian tiket. Cukup isi formulir pemesanan tiket. Anda diijinkan untuk membatalkan pembelian tiket selagi Anda belum membayarnya
                     </p>
                 </div>
             </div>
             <div class="card p-3">
-                <div class="cardheader text-center">
+                <div class="text-center">
                     <div class="text-danger">
                         <a href="#" class="btn btn-circle btn-danger mb-2">
-                            <i class="fa fa-fw fa-dollar-sign"></i>
+                            <i class="fa fa-fw fa-wrench"></i>
                         </a>
                     </div>
-                    <span class="h3 text-center text-danger">Murah</span>
+                    <span class="h3 text-center text-danger">24/7 Service</span>
                 </div>
                 <div class="card-body">
-                    <p class="text-justify">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, reprehenderit.
+                    <p class="text-center">
+                        Customer Service siap melayani Anda dimanapun dan kapanpun dengan cepat
                     </p>
                 </div>
             </div>
-          
        </div>
     </section>
-    
+    <section class="vh-100">
+    <h2 class="mb-4 text-black font-weight-bold p-0 text-center">Jelajahi Bumi Ini</h2>
+    <div class="row justify-content-center">
+        <div class="col-xl-10 col-lg-12 col-md-9">
+          <div class="card o-hidden border-0 shadow-lg">
+            <div class="card-body p-0 bg-primary text-white">
+              <!-- Nested Row within Card Body -->
+              <div class="row">
+                <div class="col-lg-5 d-none d-lg-block p-5">
+                    <h4>Ayo Jelajah</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum ab commodi suscipit voluptas consectetur! Suscipit doloribus eveniet maiores nisi ratione quo temporibus, soluta aliquid accusantium laudantium facilis, nostrum vel voluptatibus!</p>
+                    <button class="btn btn-danger">Saya ingin keliling dunia <i class="fa fa-fw fa-globe"></i> </button>
+                </div>
+                <div class="col-lg-7">
+                  <div>
+                    Jepang
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <script src="<?= BASE_URL?>/vendor/jquery/jquery.min.js"></script>
     <script src="<?= BASE_URL?>/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 

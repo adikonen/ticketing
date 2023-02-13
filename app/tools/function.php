@@ -72,3 +72,11 @@ function e($str) {
 function component($component, $data = []) {
     require_once "../app/views/components/{$component}.php";
 }
+
+function uploadFile($requestFile, $dir) {
+
+}
+
+function renderStorageUrl($storagePath) {
+
+}

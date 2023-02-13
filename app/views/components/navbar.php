@@ -23,9 +23,7 @@
         </div>
       </li>
       <li class="nav-item">
-        <?php if ($user == null): ?>
-          <a class="nav-link active" href="<?= BASE_URL?>/login">Masuk <i class="fa fa-fw fa-arrow-right"></i></a>
-        <?php endif;?>
+          <a class="nav-link active" href="<?= BASE_URL?>/home">Pesan Tiket<i class="fa fa-fw fa-arrow-right"></i></a>
       </li>
     </ul>
   
